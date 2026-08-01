@@ -1,0 +1,138 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     aria-labelledby="title description">
+
+  <title id="title">Kirill Larkin - Java and Kotlin Backend Developer</title>
+  <desc id="description">
+    Animated GitHub profile header for Kirill Larkin, focused on backend engineering,
+    distributed systems, microservices, scalability, and highload systems.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="55%" stop-color="#0b1d35"/>
+      <stop offset="100%" stop-color="#101b2d"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7f52ff"/>
+      <stop offset="48%" stop-color="#4f8cff"/>
+      <stop offset="100%" stop-color="#56c596"/>
+    </linearGradient>
+
+    <linearGradient id="waveGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7f52ff"/>
+      <stop offset="50%" stop-color="#3f7cff"/>
+      <stop offset="100%" stop-color="#56c596"/>
+    </linearGradient>
+
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36"
+            fill="none"
+            stroke="#8ea7c7"
+            stroke-opacity="0.09"
+            stroke-width="1"/>
+    </pattern>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="nameClip">
+      <rect x="75" y="88" width="0" height="72">
+        <animate attributeName="width" from="0" to="620" dur="1.8s" begin="0.25s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="roleClip">
+      <rect x="78" y="163" width="0" height="42">
+        <animate attributeName="width" from="0" to="620" dur="1.5s" begin="1.15s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <path id="waveOne" d="M0 238 C140 205 235 269 380 239 C525 209 610 274 760 239 C910 204 1015 267 1200 232 L1200 300 L0 300 Z"/>
+    <path id="waveTwo" d="M0 257 C155 225 245 286 405 255 C565 224 670 286 820 255 C970 224 1080 278 1200 250 L1200 300 L0 300 Z"/>
+
+    <style>
+      .floating { animation: floating 4.5s ease-in-out infinite; }
+      .floating-delay { animation: floating 5.2s ease-in-out infinite; animation-delay: -1.8s; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .cursor { animation: blink 0.8s steps(2, start) infinite; }
+      .wave-one { animation: driftOne 9s ease-in-out infinite alternate; }
+      .wave-two { animation: driftTwo 12s ease-in-out infinite alternate; }
+      @keyframes floating { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes pulse { 0%,100% { opacity: 0.45; } 50% { opacity: 1; } }
+      @keyframes blink { 0%,45% { opacity: 1; } 46%,100% { opacity: 0; } }
+      @keyframes driftOne { from { transform: translateX(-18px); } to { transform: translateX(18px); } }
+      @keyframes driftTwo { from { transform: translateX(22px); } to { transform: translateX(-22px); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+
+  <circle cx="1085" cy="54" r="128" fill="#7f52ff" opacity="0.07"/>
+  <circle cx="1120" cy="72" r="78" fill="#56c596" opacity="0.06"/>
+
+  <g transform="translate(835 55)" opacity="0.92">
+    <g class="floating">
+      <rect x="0" y="45" width="118" height="62" rx="13" fill="#0d2744" stroke="#4f8cff" stroke-width="2"/>
+      <text x="59" y="72" text-anchor="middle" fill="#d7e7ff" font-size="15" font-family="Arial, Helvetica, sans-serif" font-weight="700">Backend</text>
+      <text x="59" y="92" text-anchor="middle" fill="#8ea7c7" font-size="11" font-family="Arial, Helvetica, sans-serif">Architecture</text>
+    </g>
+
+    <g class="floating-delay">
+      <rect x="188" y="0" width="132" height="62" rx="13" fill="#191c42" stroke="#7f52ff" stroke-width="2"/>
+      <text x="254" y="27" text-anchor="middle" fill="#eee9ff" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">Java / Kotlin</text>
+      <text x="254" y="47" text-anchor="middle" fill="#a99cff" font-size="11" font-family="Arial, Helvetica, sans-serif">Services</text>
+    </g>
+
+    <g class="floating">
+      <rect x="188" y="112" width="132" height="62" rx="13" fill="#102d31" stroke="#56c596" stroke-width="2"/>
+      <text x="254" y="139" text-anchor="middle" fill="#ddfff1" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">Scalability</text>
+      <text x="254" y="159" text-anchor="middle" fill="#86dcb3" font-size="11" font-family="Arial, Helvetica, sans-serif">Highload</text>
+    </g>
+
+    <g class="floating-delay">
+      <rect x="380" y="45" width="126" height="62" rx="13" fill="#10243c" stroke="#68a6ff" stroke-width="2"/>
+      <text x="443" y="72" text-anchor="middle" fill="#e4efff" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">PostgreSQL</text>
+      <text x="443" y="92" text-anchor="middle" fill="#8eb7eb" font-size="11" font-family="Arial, Helvetica, sans-serif">Data</text>
+    </g>
+
+    <g stroke="url(#accent)" stroke-width="2" fill="none" opacity="0.75">
+      <path d="M118 76 H188"/>
+      <path d="M320 31 C356 31 356 76 380 76"/>
+      <path d="M320 143 C356 143 356 76 380 76"/>
+    </g>
+
+    <g fill="#9cc2ff" class="pulse">
+      <circle cx="150" cy="76" r="4"/>
+      <circle cx="350" cy="54" r="4"/>
+      <circle cx="350" cy="120" r="4"/>
+    </g>
+  </g>
+
+  <text x="78" y="68" fill="#8ea7c7" font-size="20" font-family="Arial, Helvetica, sans-serif" letter-spacing="1.5">Hi, I'm</text>
+
+  <text x="75" y="145" clip-path="url(#nameClip)" fill="url(#accent)" font-size="64" font-family="'Courier New', Courier, monospace" font-weight="700" letter-spacing="2" filter="url(#softGlow)">KIRILL LARKIN</text>
+
+  <text x="78" y="194" clip-path="url(#roleClip)" fill="#f4f8ff" font-size="27" font-family="Arial, Helvetica, sans-serif" font-weight="600">Java / Kotlin Backend Developer</text>
+
+  <text x="79" y="225" fill="#9db0c9" font-size="16" font-family="Arial, Helvetica, sans-serif">Distributed systems  •  Microservices  •  Highload</text>
+
+  <g transform="translate(79 250)">
+    <text x="0" y="0" fill="#56c596" font-size="14" font-family="'Courier New', Courier, monospace">&gt; building reliable backend systems</text>
+    <rect class="cursor" x="286" y="-13" width="8" height="16" rx="1" fill="#56c596"/>
+  </g>
+
+  <g class="wave-two" opacity="0.20"><use href="#waveTwo" fill="#7f52ff"/></g>
+  <g class="wave-one" opacity="0.22"><use href="#waveOne" fill="url(#waveGradient)"/></g>
+
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#a7c5ef" stroke-opacity="0.12"/>
+</svg>
