@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./additional/kirill-larkin-header.svg" width="100%" alt="Kirill Larkin - Java / Kotlin Backend Developer" />
+</p>
+
 <div align="center">
 
 # Hi, I'm Kirill Larkin 👋
