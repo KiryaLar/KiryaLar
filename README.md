@@ -1,18 +1,12 @@
 <p align="center">
-  <img src="./additional/kirill-larkin-header.svg" width="100%" alt="Kirill Larkin - Java / Kotlin Backend Developer" />
+  <img src="https://github.com/KiryaLar/additional/blob/main/kirill-larkin-header.svg" width="100%" alt="Kirill Larkin - Java / Kotlin Backend Developer" />
 </p>
 
 <div align="center">
 
-# Hi, I'm Kirill Larkin 👋
-
-### Java / Kotlin Backend Developer
-
-I build reliable backend services, distributed systems, and event-driven applications using Java, Kotlin, Spring, Kafka, and PostgreSQL.
-
 [![GitHub](https://img.shields.io/badge/GitHub-KiryaLar-181717?style=for-the-badge\&logo=github)](https://github.com/KiryaLar)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kirill_Larkin-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/your-linkedin/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:your-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kirill_Larkin-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/kirya-larkin/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:larkin.kirill2002@gmail.com)
 
 </div>
 
@@ -110,32 +104,13 @@ I build reliable backend services, distributed systems, and event-driven applica
 
 ---
 
-<details>
-  <summary><b>📖 Currently Learning and Exploring</b></summary>
-  <br/>
-
-* Advanced Kotlin and Coroutines
-* JVM performance and garbage collection
-* Kafka delivery semantics and stream processing
-* Kubernetes networking and service discovery
-* Distributed transactions, Saga, and Outbox patterns
-* PostgreSQL query optimization and partitioning
-* OpenTelemetry, Prometheus, Grafana, Loki, and Tempo
-* Cloud-native architecture
-* High-load system design
-
-</details>
-
----
-
 ## 🤝 Let's Connect
 
 I am always interested in discussing backend engineering, distributed systems, Java, Kotlin, and software architecture.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/your-linkedin/)
-[![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge\&logo=github)](https://github.com/KiryaLar)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/kirya-larkin/)
 
 </div>
 
