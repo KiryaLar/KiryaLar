@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/KiryaLar/additional/blob/main/kirill-larkin-header.svg" width="100%" alt="Kirill Larkin - Java / Kotlin Backend Developer" />
+  <img src="./assets/kirill-larkin-header.svg" width="100%" alt="Kirill Larkin - Java / Kotlin Backend Developer" />
 </p>
 
 <div align="center">
