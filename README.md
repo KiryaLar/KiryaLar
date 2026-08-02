@@ -115,9 +115,3 @@ I am always interested in discussing backend engineering, distributed systems, J
 </div>
 
 <br/>
-
-<div align="right">
-
-![Profile Views](https://komarev.com/ghpvc/?username=KiryaLar\&style=flat-square\&label=Profile+views)
-
-</div>
